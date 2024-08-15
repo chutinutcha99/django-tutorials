@@ -22,6 +22,7 @@ Unix/MacOS
 source venv/bin/activate
 
 ขั้นตอนที่ 5 ให้ทำการ Install โดยรันคำสั่งนี้
+
 python -m pip install -r requirements.txt
 
 
