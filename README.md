@@ -9,10 +9,10 @@ cd django-tutorials ใน command line หรือ terminal จากนั้
 
 ## ขั้นตอนที่ 3 สำหรับ Django Framework จะทำงานร่วมกับ virtual environment ทำการติดตั้งโดยใช้คำสั่งนี้
 
-Windows
+Windows:
 py -m venv venv
 
-Unix/MacOS
+Unix/MacOS: 
 python -m venv venv
 
 ขั้นตอนที่ 4 ให้ทำการ activate ของ venv
