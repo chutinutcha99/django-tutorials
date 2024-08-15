@@ -8,17 +8,21 @@ This is Django Tutorials for Beginner to Advanced
 ขั้นตอนที่ 3 สำหรับ Django Framework จะทำงานร่วมกับ virtual environment ทำการติดตั้งโดยใช้คำสั่งนี้
 
 Windows
+
 py -m venv venv
 
 Unix/MacOS
+
 python -m venv venv
 
 ขั้นตอนที่ 4 ให้ทำการ activate ของ venv
 
 Windows
+
 venv\Scripts\activate
 
 Unix/MacOS
+
 source venv/bin/activate
 
 ขั้นตอนที่ 5 ให้ทำการ Install โดยรันคำสั่งนี้
