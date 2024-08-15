@@ -15,29 +15,27 @@ py -m venv venv
 Unix/MacOS: 
 python -m venv venv
 
-ขั้นตอนที่ 4 ให้ทำการ activate ของ venv
+### ขั้นตอนที่ 4 ให้ทำการ activate ของ venv
 
-Windows
-
+Windows:
 venv\Scripts\activate
 
-Unix/MacOS
-
+Unix/MacOS: 
 source venv/bin/activate
 
-ขั้นตอนที่ 5 ให้ทำการ Install โดยรันคำสั่งนี้
+### ขั้นตอนที่ 5 ให้ทำการ Install โดยรันคำสั่งนี้
 
 python -m pip install -r requirements.txt
 
-ขั้นตอนที่ 6 ให้ Runserver โดยใช้คำสั่งนี้
+### ขั้นตอนที่ 6 ให้ Runserver โดยใช้คำสั่งนี้
 
 python manage.py runserver
 
-ขั้นตอนที่ 7 ให้ Makemigrations โดยใช้คำสั่งนี้
+### ขั้นตอนที่ 7 ให้ Makemigrations โดยใช้คำสั่งนี้
 
 python manage.py makemigrations
 
-ขั้นตอนที่ 8 ให้ Migrate โดยใช้คำสั่งนี้
+### ขั้นตอนที่ 8 ให้ Migrate โดยใช้คำสั่งนี้
 
 python manage.py migrate
 
