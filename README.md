@@ -25,6 +25,19 @@ source venv/bin/activate
 
 python -m pip install -r requirements.txt
 
+ขั้นตอนที่ 6 ให้ Runserver โดยใช้คำสั่งนี้
+
+python manage.py runserver
+
+ขั้นตอนที่ 7 ให้ Makemigrations โดยใช้คำสั่งนี้
+
+python manage.py makemigrations
+
+ขั้นตอนที่ 8 ให้ Migrate โดยใช้คำสั่งนี้
+
+python manage.py migrate
+
+หลังจากนั้นให้ทำงาน Runserver อีกครั้ง
 
 
  
